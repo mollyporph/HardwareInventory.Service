@@ -8,6 +8,11 @@ namespace dhcchardwareService.DataObjects
 {
     public class CrewMember
     {
-        public string UserName { get; set; }
+        public int uid { get; set; }
+        public string username { get; set; }
+        public string firstname { get; set; }
+        public string lastname { get; set; }
+        public string badge_picture { get; set; }
+        public string profile_picture { get; set; }
     }
 }
