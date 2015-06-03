@@ -23,6 +23,7 @@ namespace dhcchardwareService
             ServicePointManager.ServerCertificateValidationCallback =
                 (sender, certificate, chain, errors) => true;
             //TODO: Fix oauth
+	    //Another foul comment!
             AuthHeader = CloudConfigurationManager.GetSetting("DHCC_BASIC_AUTH");
 
             //consumerKey = CloudConfigurationManager.GetSetting("DHCC_CONSUMER_KEY");
